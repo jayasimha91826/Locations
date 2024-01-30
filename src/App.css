@@ -1,6 +1,14 @@
 .App {
   text-align: center;
 }
+.main_div{
+  padding: 70px;
+}
+.list_container{
+  display: flex !important ;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 .App-logo {
   height: 40vmin;

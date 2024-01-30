@@ -1,7 +1,31 @@
 .head{
-    color: blueviolet;
+    color: black;
+    font-size: 40px;
+    margin: 10px;
 }
 label{
     color: black;
     font-style: italic;
+    font-size: 20px;
+}
+.search_box{
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    background-color: rgb(235, 232, 232);
+    padding: 7px 0px 0px 10px;
+    outline: none !important;
+}
+.search_image{
+    width: 15px;
+    height: 15px;
+    padding: 7px 10px 0px 0px;
+}
+.search_container{
+    display: flex;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 10px;
+    margin: 10px;
 }
